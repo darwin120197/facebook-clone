@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+
+    <!-- ========== ICON ========== -->
+
+    <!-- ========== MAIN CSS ========== -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ========== FONT AWESOME ========== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ========== REMIXICON ========== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- ==================== HEADER ==================== -->
+    <header class="header" id="header">
+      <div class="logo-search-section">
+        <i class="fa-brands fa-facebook"></i>
+        <input
+          type="search"
+          class="search"
+          id="search"
+          placeholder="Search Facebook"
+        />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+      <nav class="navbar" id="navbar">
+        <div class="main-nav">
+          <ul class="nav-product">
+            <li class="nav-list" id="nav-list">
+              <a href="#" class="nav-item" id="nav-item"
+                ><i class="fa-solid fa-house"></i
+              ></a>
+            </li>
+            <li class="nav-list" id="nav-list">
+              <a href="#" class="nav-item" id="nav-item"
+                ><i class="fa-solid fa-tv"></i
+              ></a>
+            </li>
+            <li class="nav-list" id="nav-list">
+              <a href="#" class="nav-item" id="nav-item"
+                ><i class="fa-solid fa-store"></i
+              ></a>
+            </li>
+            <li class="nav-list" id="nav-list">
+              <a href="#" class="nav-item" id="nav-item"
+                ><i class="fa-solid fa-users-rectangle"></i
+              ></a>
+            </li>
+            <li class="nav-list" id="nav-list">
+              <a href="#" class="nav-item" id="nav-item"
+                ><i class="fa-solid fa-gamepad"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="second-nav">
+          <ul class="nav-product">
+            <li class="nav-list">
+              <a href="#" class="nav-item"><i class="fa-solid fa-bars"></i></a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-item"
+                ><i class="fa-brands fa-facebook-messenger"></i
+              ></a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-item"><i class="fa-solid fa-bell"></i></a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-item">
+                <img src="./images/my-profile.jpg" alt="account" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main class="main">
+      <!-- =============== Left-Side Navigation Bar ============== -->
+      <aside class="sidebar-left first-left" id="sidebar-left">
+        <nav class="sidebar-nav">
+          <ul class="side-nav-product">
+            <li class="nav-list">
+              <a href="#" class="nav-item">
+                <img src="./images/my-profile.jpg" alt="profile" />
+                <span>Darwin Lopez</span></a
+              >
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-user-group"></i> <span>Friends</span></a
+              >
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <span>Memories</span></a
+              >
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-bookmark"></i> <span>Saved</span></a
+              >
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-item"
+                ><i class="fa-solid fa-users-rectangle"></i>
+                <span>Groups</span></a
+              >
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-tv"></i> <span>Video</span></a
+              >
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-item" id="see-more-btn">
+                <i class="fa-solid fa-chevron-down"></i>
+                <span>See More</span></a
+              >
+            </li>
+
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-chart-simple"></i>
+                <span>Ads Manager</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-seedling"></i>
+                <span>Climate Science Center</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-regular fa-calendar-check"></i> <span>Events</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-address-card"></i> <span>Feeds</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-shield-heart"></i>
+                <span>Fundraisers</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-video"></i> <span>Gaming Video</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-shop"></i> <span>Marketplace</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <span>Messenger</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-brands fa-meta"></i>
+                <span>Meta Business Suite</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-credit-card"></i>
+                <span>Orders and payments</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-flag"></i> <span>Pages</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-solid fa-gamepad"></i> <span>Play games</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item">
+                <i class="fa-brands fa-adversal"></i>
+                <span>Recent ad activity</span>
+              </a>
+            </li>
+            <li class="see-more-list nav-list">
+              <a href="#" class="nav-item" id="see-less-btn">
+                <i class="fa-solid fa-chevron-up"></i>
+                <span>See Less</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="side-nav-product second-left">
+            <li class="nav-list"></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- =============== Main-Body Content ============== -->
+      <section class="main-content">
+        <div class="friends-story">
+          <div class="story">
+            <ul class="story-product">
+              <li class="story-list">
+                <div class="profile-picture">
+                  <img src="./images/profile-4.jpg" alt="error" />
+                </div>
+                <a href="#"> <img src="./images/story-4.jpg" alt="error" /></a>
+                <h6>Nestle Frias</h6>
+              </li>
+              <li class="story-list">
+                <div class="profile-picture">
+                  <img src="./images/profile-1.jpg" alt="error" />
+                </div>
+                <a href="#"> <img src="./images/story-1.jpg" alt="error" /></a>
+                <h6>Moises Noe</h6>
+              </li>
+              <li class="story-list">
+                <div class="profile-picture">
+                  <img src="./images/profile-2.jpg" alt="error" />
+                </div>
+                <a href="#"> <img src="./images/story-2.jpg" alt="error" /></a>
+                <h6>Rheyan Reyes</h6>
+              </li>
+              <li class="story-list">
+                <div class="profile-picture">
+                  <img src="./images/profile-3.jpg" alt="error" />
+                </div>
+                <a href="#"> <img src="./images/story-3.jpg" alt="error" /></a>
+                <h6>Ferlene Nevado</h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="your-post">
+          <div class="post-content">
+            <div class="profile">
+              <img
+                src="./images/my-profile.jpg"
+                alt="profile-picture"
+                class="profile-pictue"
+              />
+            </div>
+            <div class="whats-on-your-mind">
+              <input type="text" placeholder="What's on your mind, Darwin?" />
+            </div>
+          </div>
+          <div class="post-activity">
+            <div class="post-video post">
+              <i class="fa-solid fa-circle-play"></i>
+              <p>Live video</p>
+            </div>
+            <div class="post-photo post">
+              <i class="fa-solid fa-file-image"></i>
+              <p>Photo/video</p>
+            </div>
+            <div class="post-feeling post">
+              <i class="fa-regular fa-face-laugh"></i>
+              <p>Feeling/activity</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="newsfeed-post">
+          <div class="user-post-details">
+            <div class="user-profile">
+              <img
+                src="./images/courtside-buzz-dp.jpg"
+                alt="courtside-profile"
+              />
+            </div>
+            <div class="user-name-date-posted">
+              <h6 class="user-name">Courtside Buzz</h6>
+              <p class="date-posted">
+                about an hour ago. <i class="fa-solid fa-earth-americas"></i>
+              </p>
+            </div>
+            <div class="option-button">
+              <div><i class="ri-more-fill"></i></div>
+              <div><i class="ri-close-large-line"></i></div>
+            </div>
+          </div>
+
+          <div class="about-post">
+            <p class="post-caption">
+              In 2014, Jaylen Brown’s teacher told him that she would look him
+              up in Cobb County jail in 5 years. 10 years later, Brown is an NBA
+              champion & win Finals MVP☘️🏆
+            </p>
+          </div>
+
+          <div class="post-image-video">
+            <img src="./images/courtside-image-post.jpg" alt="cb-image-post" />
+          </div>
+
+          <div class="post-actions-buttons">
+            <div class="react-comment">
+              <div class="reaction-area">
+                <div class="reaction">
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-heart"></i>
+                  <i class="fa-solid fa-face-sad-tear"></i>
+                  <a href="#">83K</a>
+                </div>
+              </div>
+              <div class="comment-share">
+                <a href="#"> 6.3K comments</a>
+                <a href="#"> 5.3K shares</a>
+              </div>
+            </div>
+
+            <div class="action-buttons">
+              <ul class="button-product">
+                <li class="button-list">
+                  <a href="#" class="button-item">
+                    <i class="fa-regular fa-thumbs-up"></i> <span>Like</span>
+                  </a>
+                </li>
+                <li class="button-list">
+                  <a href="#" class="button-item">
+                    <i class="fa-regular fa-comment"></i> <span>Comment</span>
+                  </a>
+                </li>
+                <li class="button-list">
+                  <a href="#" class="button-item">
+                    <i class="fa-solid fa-share"></i> <span>Share</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="newsfeed-post">
+          <div class="user-post-details">
+            <div class="user-profile">
+              <img src="./images/nba-dp.jpg" alt="courtside-profile" />
+            </div>
+            <div class="user-name-date-posted">
+              <h6 class="user-name">NBA</h6>
+              <p class="date-posted">
+                about an hour ago. <i class="fa-solid fa-earth-americas"></i>
+              </p>
+            </div>
+            <div class="option-button">
+              <div><i class="ri-more-fill"></i></div>
+              <div><i class="ri-close-large-line"></i></div>
+            </div>
+          </div>
+
+          <div class="about-post">
+            <p class="post-caption">
+              A new generation raises one to some storied rafters.
+            </p>
+          </div>
+
+          <div class="post-image-video">
+            <img src="./images/nba-image-post.jpg" alt="nba-image-post" />
+          </div>
+
+          <div class="post-actions-buttons">
+            <div class="react-comment">
+              <div class="reaction-area">
+                <div class="reaction">
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-heart"></i>
+                  <i class="fa-solid fa-face-sad-tear"></i>
+                  <a href="#">537K</a>
+                </div>
+              </div>
+              <div class="comment-share">
+                <a href="#"> 11K comments</a>
+                <a href="#"> 7.8K shares</a>
+              </div>
+            </div>
+
+            <div class="action-buttons">
+              <ul class="button-product">
+                <li class="button-list">
+                  <a href="#" class="button-item">
+                    <i class="fa-regular fa-thumbs-up"></i> <span>Like</span>
+                  </a>
+                </li>
+                <li class="button-list">
+                  <a href="#" class="button-item">
+                    <i class="fa-regular fa-comment"></i> <span>Comment</span>
+                  </a>
+                </li>
+                <li class="button-list">
+                  <a href="#" class="button-item">
+                    <i class="fa-solid fa-share"></i> <span>Share</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =============== Right-Side Content ============== -->
+      <aside class="side-content">
+        <div class="sponsored-area area">
+          <h4 class="side-title">Sponsored</h4>
+
+          <div class="ad-content">
+            <a
+              href="https://blue-games.net/product/grand-theft-auto-v?ns=cm&fbclid=IwAR0TaOOtCrUCvRTfxZza8Cl1c6XUcedg2f1hJWYrY07foQeKar33r1hdVTE_aem_MR48bvmVK6ExBmGHhMr4ZA"
+              target="_blank"
+            >
+              <img src="./images/GTA.jpg" alt="GTA profile" />
+              <div class="about-ad">
+                <strong>Blue Game</strong>
+                <p>blue-games.net</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="ad-content">
+            <a
+              href="https://www.ford.com.ph/showroom/trucks/ford-ranger/"
+              target="_blank"
+            >
+              <img src="./images/Ford" alt="GTA profile" />
+              <div class="about-ad">
+                <strong>Ford June Deals</strong>
+                <p>ford.com.ph</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="pages-profile-area area">
+          <h4 class="side-title">Your Pages and profiles</h4>
+          <div class="your-page">
+            <a
+              href="https://web.facebook.com/DPangFurnitureShop"
+              class="page-link"
+              target="_blank"
+              ><img src="./images/Trendz-profile.jpg" alt="" />
+              <h6 class="page-name">Trendz Furniture Shop</h6>
+            </a>
+            <ul class="page-button-product">
+              <li class="page-button-list">
+                <i class="ri-discuss-line"></i> <span>9 Messages</span>
+              </li>
+              <li class="page-button-list">
+                <i class="ri-switch-line"></i> <span>Switch to Page</span>
+              </li>
+              <li class="page-button-list">
+                <i class="ri-megaphone-line"></i> <span>Create promotion</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="birthdays-area area">
+          <h4 class="side-title">Birthdays</h4>
+          <div class="friends-birthday">
+            <a href="#" class="item">
+              <i class="fa-solid fa-gift"></i>
+              <strong>Ian Martin <span>'s birthday is today.</span></strong>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-area area">
+          <h4 class="side-title">Contacts</h4>
+          <ul class="contact-product">
+            <li class="contact-list">
+              <a href="#">
+                <img
+                  src="./Contacts Images/renz-laforteza.jpg"
+                  alt="contact-profile"
+                />
+                <div class="status-indicator"></div>
+                <h6 class="contact-name">Renz Ramos Laforteza</h6>
+              </a>
+            </li>
+            <li class="contact-list">
+              <a href="#">
+                <img
+                  src="./Contacts Images/king-medel.jpg"
+                  alt="contact-profile"
+                />
+                <div class="status-indicator"></div>
+                <h6 class="contact-name">King Medel</h6>
+              </a>
+            </li>
+            <li class="contact-list">
+              <a href="#">
+                <img
+                  src="./Contacts Images/moises-montemayor.jpg"
+                  alt="contact-profile"
+                />
+                <div class="status-indicator"></div>
+                <h6 class="contact-name">Moises Noe Remotin Montemayor</h6>
+              </a>
+            </li>
+            <li class="contact-list">
+              <a href="#">
+                <img
+                  src="./Contacts Images/jess-uribe.jpg"
+                  alt="contact-profile"
+                />
+                <div class="status-indicator"></div>
+                <h6 class="contact-name">Jess Uribe</h6>
+              </a>
+            </li>
+            <li class="contact-list">
+              <a href="#">
+                <img
+                  src="./Contacts Images/jeremiah-edward-medel.jpg"
+                  alt="contact-profile"
+                />
+                <div class="status-indicator"></div>
+                <h6 class="contact-name">Jeremiah Edward Medel</h6>
+              </a>
+            </li>
+            <li class="contact-list">
+              <a href="#">
+                <img
+                  src="./Contacts Images/bryan-panahon.jpg"
+                  alt="contact-profile"
+                />
+                <div class="status-indicator"></div>
+                <h6 class="contact-name">Bryan Garcia Panahon</h6>
+              </a>
+            </li>
+            <li class="contact-list">
+              <a href="#">
+                <img
+                  src="./Contacts Images/gidz-manikan.jpg"
+                  alt="contact-profile"
+                />
+                <div class="status-indicator"></div>
+                <h6 class="contact-name">Gidz Manikan</h6>
+              </a>
+            </li>
+            <li class="contact-list">
+              <a href="#">
+                <img
+                  src="./Contacts Images/lester-panahon.jpg"
+                  alt="contact-profile"
+                />
+                <div class="status-indicator"></div>
+                <h6 class="contact-name">Lester Garcia Panahon</h6>
+              </a>
+            </li>
+            <li class="contact-list">
+              <a href="#">
+                <img
+                  src="./Contacts Images/nelson-espinas.jpg"
+                  alt="contact-profile"
+                />
+                <div class="status-indicator"></div>
+                <h6 class="contact-name">Nelson Espinas</h6>
+              </a>
+            </li>
+            <li class="contact-list">
+              <a href="#">
+                <img
+                  src="./Contacts Images/ken-panahon.jpg"
+                  alt="contact-profile"
+                />
+                <div class="status-indicator"></div>
+                <h6 class="contact-name">Ken Garcia Panahon</h6>
+              </a>
+            </li>
+            <li class="contact-list">
+              <a href="#">
+                <img
+                  src="./Contacts Images/rheyan-reyes.jpg"
+                  alt="contact-profile"
+                />
+                <div class="status-indicator"></div>
+                <h6 class="contact-name">Rheyan Lopez Reyes</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="group-area">
+          <h4 class="side-title">Group conversations</h4>
+        </div>
+      </aside>
+
+      <!-- =============== Other Navigation ============== -->
+      <div class="other-navigation-button">
+        <div class="menu-area">
+          <h4 class="nav-title">Menu</h4>
+
+          <div class="menu-content">
+            <div class="first-menu">
+              <input type="search" placeholder="Search menu" />
+              <div class="social">
+                <h5 class="menu-type">Social</h5>
+                <div class="social-content">
+                  <ul class="side-nav-product other-nav">
+                    <li class="nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-regular fa-calendar-check"></i>
+                        <div>
+                          <span>Events</span>
+                          <p class="description">
+                            Organize or finds events and other things to do
+                            online and nearby.
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-user-group"></i>
+                        <div>
+                          <span>Friends</span>
+                          <p class="description">
+                            Search for friends or people you may know.
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-users-rectangle"></i>
+                        <div>
+                          <span>Groups</span>
+                          <p class="description">
+                            Connect with people who share your interest.
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-address-card"></i>
+                        <div>
+                          <span>News Feed</span>
+                          <p class="description">
+                            See relevant post from people and Pages you follow.
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-flag"></i>
+                        <div>
+                          <span>Pages</span>
+                          <p class="description">
+                            Discover and connect with businesses on Facebook.
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="second-menu">
+              <div class="create-area">
+                <h4>Create</h4>
+                <div class="first-area">
+                  <ul class="first-nav-poduct">
+                    <li class="first-nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <span>Post</span>
+                      </a>
+                    </li>
+                    <li class="first-nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-book-open"></i>
+                        <span>Story</span>
+                      </a>
+                    </li>
+                    <li class="first-nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-clapperboard"></i>
+                        <span>Reel</span>
+                      </a>
+                    </li>
+                    <li class="first-nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Life event</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="first-area second-area">
+                  <ul class="first-nav-poduct">
+                    <li class="first-nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-font-awesome"></i>
+                        <span>Page</span>
+                      </a>
+                    </li>
+                    <li class="first-nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <span>Ad</span>
+                      </a>
+                    </li>
+                    <li class="first-nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-people-group"></i>
+                        <span>Group</span>
+                      </a>
+                    </li>
+                    <li class="first-nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-calendar-plus"></i>
+                        <span>Event</span>
+                      </a>
+                    </li>
+                    <li class="first-nav-list">
+                      <a href="#" class="nav-item">
+                        <i class="fa-solid fa-clipboard-list"></i>
+                        <span
+                          >Marketplace <br />
+                          listing</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-area"></div>
+
+        <div class="notification-area"></div>
+
+        <div class="account-area"></div>
+      </div>
+    </main>
+
+    <!-- ========== MAIN JS ========== -->
+    <script src="main.js"></script>
+  </body>
+</html>
