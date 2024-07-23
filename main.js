@@ -323,6 +323,7 @@ function isSignUp_Email_Valid(email) {
     }, 3000);
   } else {
     input_icons[2].classList.remove("display-block");
+    email.classList.remove("border-red");
   }
 }
 
